@@ -2,6 +2,13 @@
 
 通过Xbox one实现对vv7加速、转向的控制
 
+## Screenshots
+
+[![1](gifs/vv7_1.gif)]
+
+![2](gifs/vv7_2.gif)
+
+
 ## Features
 * Uses an XBox controller as an input device
 * LT加速，RT减速，Xbox按键实现加速允许，刚开始以-3m/s2反向加速度停在原地，按下一次xbox启用加速，再按一次取消，并以-3m/s2减速，再按启动，再按取消，以此类推。减速时无法加速。左摇杆实现左右转向
