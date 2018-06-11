@@ -1,0 +1,13 @@
+<launch>
+
+  <node pkg="vv7-hack" type="vv7_joy.py" name="vv7_joy"/>
+  <node pkg="vv7-hack" type="vv7_control.py" name="send"/>
+
+ <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="joy" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.12" />
+  </node>
+
+</launch>
