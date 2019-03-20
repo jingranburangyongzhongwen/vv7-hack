@@ -19,7 +19,7 @@
 * struct.pack打包msg，部分数据需要移位拼接为整数个字节
 * bus为1
 * 看清无符号还是有符号
-* 由于涉及车辆协议，创建msg的文件已经加密
+* 由于涉及车辆协议，创建msg的文件未上传
 
 ## Try it yourself
 ### Hardware requirements
